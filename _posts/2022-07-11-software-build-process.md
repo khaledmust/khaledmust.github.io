@@ -1,7 +1,6 @@
 ---
 title: "Software Build Process"
 layout: post
-categories: Embedded-Systems
 ---
 
 # Table of Contents
