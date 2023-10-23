@@ -7,21 +7,36 @@ enableEmoji = true
 title = 'Khaled Blog'
 author = 'Khaled Mustafa'
 description = 'I talk about anything that intersets me.'
-
 # dir name of your blog content (default is `content/posts`)
 contentTypeName = 'posts'
-
 # ["orange", "blue", "red", "green", "pink"]
 themeColor = 'orange'
-
 # if you set this to 0, only submenu trigger will be visible
-showMenuItems = 3
-
+showMenuItems = 2
 # show selector to switch language
 showLanguageSelector = false
-
 # set theme to full screen width
 fullWidthTheme =  false
-
 # center theme with default width
 centerTheme = false
+
+[languages]
+    [languages.en]
+        languageName = 'English'
+        title = 'Khaled Blog'
+        subtitle = 'وَقُلْ رَبِّ زِدْنِي عِلْمًا'
+        menuMore = 'Show more'
+        readMore = 'Read'
+        readOtherPosts = 'Read other posts'
+        missingContentMessage = "Page not found..."
+        missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+        logoText = 'Khaled Mustafa'
+        logoHomeLink = 'https://khaledmust.github.io/'
+
+    [languages.en.menu]
+        [[languages.en.menu.main]]
+        identifier = 'about'
+        name = 'About'
+        url = '/about'
