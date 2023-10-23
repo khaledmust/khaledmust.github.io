@@ -7,3 +7,21 @@ enableEmoji = true
 title = 'Khaled Blog'
 author = 'Khaled Mustafa'
 description = 'I talk about anything that intersets me.'
+
+# dir name of your blog content (default is `content/posts`)
+contentTypeName = 'posts'
+
+# ["orange", "blue", "red", "green", "pink"]
+themeColor = 'orange'
+
+# if you set this to 0, only submenu trigger will be visible
+showMenuItems = 3
+
+# show selector to switch language
+showLanguageSelector = false
+
+# set theme to full screen width
+fullWidthTheme =  false
+
+# center theme with default width
+centerTheme = false
