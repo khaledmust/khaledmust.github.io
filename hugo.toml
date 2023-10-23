@@ -1,0 +1,9 @@
+baseURL = 'https://khaledmust.github.io/'
+languageCode = 'en-us'
+theme = 'terminal'
+enableEmoji = true
+
+[params]
+title = 'Khaled Blog'
+author = 'Khaled Mustafa'
+description = 'I talk about anything that intersets me.'
