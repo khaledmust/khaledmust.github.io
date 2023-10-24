@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Khaled Blog</title><link>https://khaledmust.github.io/posts/</link><description>Recent content in Posts on Khaled Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 24 Oct 2023 11:10:10 +0300</lastBuildDate><atom:link href="https://khaledmust.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>A Nato Phonetics Converter</title><link>https://khaledmust.github.io/posts/a-nato-phonetics-converter/</link><pubDate>Tue, 24 Oct 2023 11:10:10 +0300</pubDate><guid>https://khaledmust.github.io/posts/a-nato-phonetics-converter/</guid><description>Explanation I have developed a basic C program designed to read input from a file, parse it, and generate output using NATO phonetics.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Khaled Blog</title><link>https://khaledmust.github.io/posts/</link><description>Recent content in Posts on Khaled Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 24 Oct 2023 13:01:49 +0300</lastBuildDate><atom:link href="https://khaledmust.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Soft links vs Hard links</title><link>https://khaledmust.github.io/posts/soft-links-vs-hard-links/</link><pubDate>Tue, 24 Oct 2023 13:01:49 +0300</pubDate><guid>https://khaledmust.github.io/posts/soft-links-vs-hard-links/</guid><description>Introduction I wanted to upload my dot files to a GitHub repository, but they were spread across multiple directories. The solution was to create a link to these files in the Git repository, ensuring that any edits to the main configuration file would be reflected in the linked file.
+There are two distinct types of links: Symlink (Symbolic Links), also known as Soft Links: These links point to the file itself and do not reference memory addresses.</description><content>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>I wanted to upload my dot files to a GitHub repository, but they were spread across multiple directories. The solution was to create a link to these files in the Git repository, ensuring that any edits to the main configuration file would be reflected in the linked file.&lt;/p>
+&lt;h2 id="there-are-two-distinct-types-of-links">There are two distinct types of links:&lt;/h2>
+&lt;ol>
+&lt;li>Symlink (Symbolic Links), also known as Soft Links:&lt;/li>
+&lt;/ol>
+&lt;p>These links point to the file itself and do not reference memory addresses. When you examine a symlink file, you&amp;rsquo;ll only find the path to the linked file. This means that if you were to copy it to a different machine, it would become non-functional.&lt;/p>
+&lt;p>The contents of a symlink is as follows:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>/home/khaled/.config/doom/config.el
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>As you can see it&amp;rsquo;s just a path to the configuration file, and nothing more.&lt;/p>
+&lt;ol>
+&lt;li>Hard Links:&lt;/li>
+&lt;/ol>
+&lt;p>A hard link is a file that points to the same memory address as the original file. You could think of it as an exact copy, and any changes made in either file will be mirrored in the other.&lt;/p>
+&lt;figure class="left" >
+&lt;img src="https://khaledmust.github.io/ox-hugo/2023-10-24_12-59-15_symlink%20vs%20hardlink.png" />
+&lt;/figure>
+&lt;p>Thus, for our use case, Hard Links is to win.&lt;/p>
+&lt;h2 id="how-to-create-a-hard-link">How to create a Hard Link?&lt;/h2>
+&lt;p>This is simply done using the &lt;code>ln&lt;/code> command without specifying any options to it.
+For example,&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ln ./Original_File.txt ./HardLink_File.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></content></item><item><title>A Nato Phonetics Converter</title><link>https://khaledmust.github.io/posts/a-nato-phonetics-converter/</link><pubDate>Tue, 24 Oct 2023 11:10:10 +0300</pubDate><guid>https://khaledmust.github.io/posts/a-nato-phonetics-converter/</guid><description>Explanation I have developed a basic C program designed to read input from a file, parse it, and generate output using NATO phonetics.
 This program, while straightforward, offers valuable insights into several essential C functions.
 To begin, our program will include an array that holds all the NATO phonetics strings.
 /* NATO Phonetics. */ const char *nato[] = { &amp;#34;Alfa&amp;#34;, &amp;#34;Bravo&amp;#34;, &amp;#34;Charlie&amp;#34;, &amp;#34;Delta&amp;#34;, &amp;#34;Echo&amp;#34;, &amp;#34;Foxtrot&amp;#34;, &amp;#34;Golf&amp;#34;, &amp;#34;Hotel&amp;#34;, &amp;#34;India&amp;#34;, &amp;#34;Juliett&amp;#34;, &amp;#34;Kilo&amp;#34;, &amp;#34;Lima&amp;#34;, &amp;#34;Mike&amp;#34;, &amp;#34;November&amp;#34;, &amp;#34;Oscar&amp;#34;, &amp;#34;Papa&amp;#34;, &amp;#34;Quebec&amp;#34;, &amp;#34;Romeo&amp;#34;, &amp;#34;Sierra&amp;#34;, &amp;#34;Tango&amp;#34;, &amp;#34;Uniform&amp;#34;, &amp;#34;Victor&amp;#34;, &amp;#34;Whiskey&amp;#34;, &amp;#34;Xray&amp;#34;, &amp;#34;Yankee&amp;#34;, &amp;#34;Zulu&amp;#34;}; Then this is what we want to do:</description><content>&lt;h2 id="explanation">Explanation&lt;/h2>
