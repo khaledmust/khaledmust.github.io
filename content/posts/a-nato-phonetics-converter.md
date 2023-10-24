@@ -1,7 +1,8 @@
 +++
 title = "A Nato Phonetics Converter"
 author = ["Khaled Mustafa"]
-lastmod = 2023-10-23T17:03:07+03:00
+description = "The NATO Phonetics Converter is a C program that transforms text into NATO phonetics alphabet equivalent, enhancing communication clarity."
+lastmod = 2023-10-24T11:10:10+03:00
 draft = false
 +++
 
