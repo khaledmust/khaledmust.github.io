@@ -28,7 +28,7 @@
        (list "org-site:main"
              :recursive t
              :base-directory "./content"
-             :publishing-function org-html-publish-to-html
+             :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
              :with-author nil           ;; Don't include author name
              :with-creator t            ;; Include Emacs and Org versions in footer
