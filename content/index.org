@@ -1,5 +1,7 @@
 #+title: Index
 
+This is my website :D
+WELCOME
 
 * Overview
-This is a link [[./emacs.org][emacs config]]
+This is a [[./about.org][about]] me page.
