@@ -1,7 +1,8 @@
 #+title: Index
 
-This is my website :D
-WELCOME
+Hi, welcome to my humble corner of the internet, where I write about my experiences and thoughts on various things including but not limited to embedded software.
+
+I hope you see you around :D
 
 * Overview
-This is a [[./about.org][about]] me page.
+** [[file:about-me.org][About Me]]

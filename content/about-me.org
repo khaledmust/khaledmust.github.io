@@ -1,0 +1,9 @@
+#+title: About Me
+
+I'm Khaled Mustafa. Welcome to my website. This page provides a brief introduction about me and this website.
+
+I am a technical educator, embedded software engineer, an electronics engineer and a [[https://1x.engineer/][1x engineer]].
+
+If you are interested to find more about my projects you could take a look at my [[https://github.com/khaledmust][GitHub]].
+
+You can find me on [[https://www.linkedin.com/in/khaled-mustafa/][LinkedIn]], and if you ever feel you want to chat you could [[mailto:khaled.mustafa.elsayed@outlook.com][mail me]] at any time.
