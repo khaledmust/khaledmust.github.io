@@ -36,11 +36,7 @@
              :section-numbers nil       ;; Don't include section numbers
              :time-stamp-file nil)))    ;; Don't include time stamp in file
 
-(setq org-html-validation-link nil)
-
 ;; Generate the site output
 (org-publish-all t)
 
 (message "Build complete!")
-
-;;; build-site.el ends here
