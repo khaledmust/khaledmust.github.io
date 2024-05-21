@@ -1,0 +1,20 @@
+image: archlinux
+packages:
+  - emacs-nox
+oauth: pages.sr.ht/PAGES:RW
+sources:
+  - https://git.sr.ht/~khaled_mustafa/my-site
+environment:
+  site: khaled_mustafa.srht.site
+tasks:
+  - build: |
+      # Generate site files
+      cd my-site
+      ./build.sh
+
+      # Bundle the site
+      cd public
+      tar -czf /home/build/html.tar.gz .
+  - upload: |
+      tar -ztvf html.tar.gz
+      acurl --fail-with-body https://pages.sr.ht/publish/$site -Fcontent=@html.tar.gz

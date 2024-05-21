@@ -1,6 +1,8 @@
 #+title: About Me
 
-I'm Khaled Mustafa. Welcome to my website. This page provides a brief introduction about me and this website.
+I am a stranger and a wayfarer in this life.
+
+Hi, I'm Khaled Mustafa. Welcome to my website. This page provides a brief introduction about me and this website.
 
 I am a technical educator, embedded software engineer, an electronics engineer and a [[https://1x.engineer/][1x engineer]].
 
