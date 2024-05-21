@@ -5,7 +5,7 @@ packages:
   - emacs-nox
 oauth: pages.sr.ht/PAGES:RW
 sources:
-  - https://git.sr.ht/~khaled_mustafa/my-site
+  - git@git.sr.ht:~khaled_mustafa/my-site
 environment:
   site: khaled_mustafa.srht.site
 tasks:
