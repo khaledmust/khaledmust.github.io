@@ -16,26 +16,33 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgb8c10fc">Overview</a></li>
+<li><a href="#org44046da">Overview</a>
+<ul>
+<li><a href="#org9516f7c">About Me</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
 <p>
-This is my website :D
-WELCOME
+Hi, welcome to my humble corner of the internet, where I write about my experiences and thoughts on various things including but not limited to embedded software.
 </p>
 
-<div id="outline-container-orgb8c10fc" class="outline-2">
-<h2 id="orgb8c10fc">Overview</h2>
-<div class="outline-text-2" id="text-orgb8c10fc">
 <p>
-This is a <a href="./about.html">about</a> me page.
+I hope you see you around :D
 </p>
+
+<div id="outline-container-org44046da" class="outline-2">
+<h2 id="org44046da">Overview</h2>
+<div class="outline-text-2" id="text-org44046da">
+</div>
+<div id="outline-container-org9516f7c" class="outline-3">
+<h3 id="org9516f7c"><a href="about-me.html">About Me</a></h3>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 29.3 (<a href="https://orgmode.org">Org</a> mode 9.6.15)</p>
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 29.4 (<a href="https://orgmode.org">Org</a> mode 9.6.15)</p>
 </div>
 </body>
 </html>
