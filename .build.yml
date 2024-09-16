@@ -1,6 +1,6 @@
 image: archlinux
 secrets:
-- ef99914b-29db-4c22-a2e5-91213b37cc27
+-  edd1bd4d-8762-45d9-b9e3-f8ce0d26d363
 packages:
   - emacs-nox
 oauth: pages.sr.ht/PAGES:RW
