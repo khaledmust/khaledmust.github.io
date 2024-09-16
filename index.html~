@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Index</title>
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="../css/org.css" />
+<link rel="stylesheet" type="text/plain" href="../css/org.css" />
 </head>
 <body>
 <div id="content" class="content">
@@ -16,9 +16,9 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgd1f5e28">Overview</a>
+<li><a href="#orga6996d9">Overview</a>
 <ul>
-<li><a href="#org1809e63">About Me</a></li>
+<li><a href="#org69aecd3">About Me</a></li>
 </ul>
 </li>
 </ul>
@@ -32,12 +32,12 @@ Hi, welcome to my humble corner of the internet, where I write about my experien
 I hope you see you around :D
 </p>
 
-<div id="outline-container-orgd1f5e28" class="outline-2">
-<h2 id="orgd1f5e28">Overview</h2>
-<div class="outline-text-2" id="text-orgd1f5e28">
+<div id="outline-container-orga6996d9" class="outline-2">
+<h2 id="orga6996d9">Overview</h2>
+<div class="outline-text-2" id="text-orga6996d9">
 </div>
-<div id="outline-container-org1809e63" class="outline-3">
-<h3 id="org1809e63"><a href="about-me.html">About Me</a></h3>
+<div id="outline-container-org69aecd3" class="outline-3">
+<h3 id="org69aecd3"><a href="about-me.html">About Me</a></h3>
 </div>
 </div>
 </div>
