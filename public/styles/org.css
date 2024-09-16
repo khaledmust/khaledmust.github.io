@@ -1,4 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@font-face {
+    font-family: 'Open Sans';
+    src: url("/public/styles/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf") format('truetype'),
+    url("/public/styles/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf") format('truetype');
+}
 
 body {
     padding: 0;
