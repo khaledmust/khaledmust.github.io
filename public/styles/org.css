@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Open Sans';
-    src: url("/public/styles/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf") format('truetype'),
-    url("/public/styles/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf") format('truetype');
+    src: url("fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf") format('truetype'),
+    url("fonts/OpenSans-VariableFont_wdth\,wght.ttf") format('truetype');
 }
 
 body {
