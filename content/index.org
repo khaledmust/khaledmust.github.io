@@ -1,4 +1,7 @@
 #+title: Index
+#+author: Khaled Mustafa
+#+OPTIONS: toc:nill
+#+tags: moc
 
 Hi, welcome to my humble corner of the internet, where I write about my experiences and thoughts on various things including but not limited to embedded software.
 
