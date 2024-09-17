@@ -10,4 +10,4 @@ If you are interested to find more about my projects you could take a look at my
 
 You can find me on [[https://www.linkedin.com/in/khaled-mustafa/][LinkedIn]], and if you ever feel you want to chat you could [[mailto:khaled.mustafa.elsayed@outlook.com][mail me]] at any time.
 
-To know more about how this site is created using Emacs click here.
+To know more about how this site is created using Emacs [[file:about-site.org][click here]].

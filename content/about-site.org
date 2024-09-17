@@ -1,0 +1,6 @@
+#+title: About Site
+#+author: Khaled Mustafa
+
+This site was created using the amazing text editor, [[https://www.gnu.org/software/emacs/][Emacs]].
+
+Special thanks to David Wilson of [[https://systemcrafters.net/][System Crafters]] for his excellent [[https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/][tutorial]].
