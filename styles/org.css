@@ -201,6 +201,27 @@ span.underline {
     text-decoration: underline;
 }
 
+#home-button {
+    position: fixed;
+    top: 40px;
+    left: 30px;
+    background-color: #369;
+    color: #fff;
+    padding: 10px 10px;
+    z-index: 1000; /* Ensures the button stays on top */
+    font-size: 1.2em;
+}
+
+#home-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#home-button a:hover {
+    color: #900;
+}
+
+
 .fixme {
     background: #ff0;
     font-weight: bold;
