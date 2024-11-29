@@ -1,13 +1,18 @@
 #+title: About Me
 
-I am a stranger and a wayfarer in this life.
+A stranger and a wayfarer in this life.
 
-Hi, I'm Khaled Mustafa. Welcome to my website. This page provides a brief introduction about me and this website.
+#+begin_quote
+يا ابن آدم، إنما أنت أيام، كلما ذهب يوم ذهب بعضك.
+الحسن البصري
+#+end_quote
 
-I am a technical educator, embedded software engineer, an electronics engineer and a [[https://1x.engineer/][1x engineer]].
+Hello! I'm Khaled Mustafa—a technical educator, embedded software engineer, and electronics enthusiast. I thrive at the intersection of teaching and technology, crafting solutions and guiding others on their own learning paths.
 
-If you are interested to find more about my projects you could take a look at my [[https://github.com/khaledmust][GitHub]].
+Welcome to my corner of the internet! Here, you’ll find a blend of my professional journey, technical projects, and personal insights.
 
-You can find me on [[https://www.linkedin.com/in/khaled-mustafa/][LinkedIn]], and if you ever feel you want to chat you could [[mailto:khaled.mustafa.elsayed@outlook.com][mail me]] at any time.
+Curious about what I’ve been building? Explore my projects on GitHub.
 
-To know more about how this site is created using Emacs [[file:about-site.org][click here]].
+Let’s connect! You can find me on [[https://www.linkedin.com/in/khaled-mustafa/][LinkedIn]], or if you’d like to chat directly, feel free to [[mailto:khaled.mustafa.elsayed@outlook.com][mail me]]—I’d love to hear from you.
+
+Wondering how this site was crafted using the magic of Emacs? [[file:about-site.org][Click here]] for the behind-the-scenes details.
