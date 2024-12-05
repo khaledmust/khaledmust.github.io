@@ -1,18 +1,25 @@
 #+title: About Me
 
-A stranger and a wayfarer in this life.
-
 #+begin_quote
-يا ابن آدم، إنما أنت أيام، كلما ذهب يوم ذهب بعضك.
-الحسن البصري
+يا ابن آدم، إنما أنت أيام، كلما ذهب يوم ذهب بعضك. - الحسن البصري
 #+end_quote
 
-Hello! I'm Khaled Mustafa—a technical educator, embedded software engineer, and electronics enthusiast. I thrive at the intersection of teaching and technology, crafting solutions and guiding others on their own learning paths.
+* Welcome!
+I'm Khaled Mustafa—a technical educator, embedded software engineer, and electronics enthusiast.
 
-Welcome to my corner of the internet! Here, you’ll find a blend of my professional journey, technical projects, and personal insights.
+I believe in lifelong learning and the power of technology to transform lives. My passion lies in teaching and building.
 
-Curious about what I’ve been building? Explore my projects on GitHub.
+* What You'll Find Here
+This is my little corner of the internet!
 
-Let’s connect! You can find me on [[https://www.linkedin.com/in/khaled-mustafa/][LinkedIn]], or if you’d like to chat directly, feel free to [[mailto:khaled.mustafa.elsayed@outlook.com][mail me]]—I’d love to hear from you.
+Once in a while, I write about the things that I am passionate about, including technology, Linux,low level software and personal insights. My goal is to share my views and experiences on these topics, and help inform others who are interested in learning more.
 
-Wondering how this site was crafted using the magic of Emacs? [[file:about-site.org][Click here]] for the behind-the-scenes details.
+Thanks for stopping by! I hope you enjoy reading my articles and find them useful.
+
+* Let’s connect!
+I’d love to hear from you! Whether you’re curious about my work, seeking collaboration, or just want to chat, feel free to reach out:
+- [[https://www.linkedin.com/in/khaled-mustafa/][LinkedIn]]
+- [[mailto:khaled.mustafa.elsayed@outlook.com][Email]]
+
+* How This Site Was Made
+Crafted with care using the power of Emacs. [[file:about-site.org][Learn more]] about the tools and processes behind the scenes.
