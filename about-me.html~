@@ -12,36 +12,74 @@
 <body>
 <div id="content" class="content">
 <h1 class="title">About Me</h1>
-<p>
-A stranger and a wayfarer in this life.
-</p>
-
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org7778eba">Welcome!</a></li>
+<li><a href="#org1ef3d81">What You'll Find Here</a></li>
+<li><a href="#org32385a7">Let’s connect!</a></li>
+<li><a href="#org3e5238b">How This Site Was Made</a></li>
+</ul>
+</div>
+</div>
 <blockquote>
 <p>
-يا ابن آدم، إنما أنت أيام، كلما ذهب يوم ذهب بعضك.
-الحسن البصري
+يا ابن آدم، إنما أنت أيام، كلما ذهب يوم ذهب بعضك. - الحسن البصري
 </p>
 </blockquote>
 
+<div id="outline-container-org7778eba" class="outline-2">
+<h2 id="org7778eba">Welcome!</h2>
+<div class="outline-text-2" id="text-org7778eba">
 <p>
-Hello! I'm Khaled Mustafa—a technical educator, embedded software engineer, and electronics enthusiast. I thrive at the intersection of teaching and technology, crafting solutions and guiding others on their own learning paths.
+I'm Khaled Mustafa—a technical educator, embedded software engineer, and electronics enthusiast.
 </p>
 
 <p>
-Welcome to my corner of the internet! Here, you’ll find a blend of my professional journey, technical projects, and personal insights.
+I believe in lifelong learning and the power of technology to transform lives. My passion lies in teaching and building.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1ef3d81" class="outline-2">
+<h2 id="org1ef3d81">What You'll Find Here</h2>
+<div class="outline-text-2" id="text-org1ef3d81">
+<p>
+This is my little corner of the internet!
 </p>
 
 <p>
-Curious about what I’ve been building? Explore my projects on GitHub.
+Once in a while, I write about the things that I am passionate about, including technology, Linux,low level software and personal insights. My goal is to share my views and experiences on these topics, and help inform others who are interested in learning more.
 </p>
 
 <p>
-Let’s connect! You can find me on <a href="https://www.linkedin.com/in/khaled-mustafa/">LinkedIn</a>, or if you’d like to chat directly, feel free to <a href="mailto:khaled.mustafa.elsayed@outlook.com">mail me</a>—I’d love to hear from you.
+Thanks for stopping by! I hope you enjoy reading my articles and find them useful.
 </p>
+</div>
+</div>
 
+<div id="outline-container-org32385a7" class="outline-2">
+<h2 id="org32385a7">Let’s connect!</h2>
+<div class="outline-text-2" id="text-org32385a7">
 <p>
-Wondering how this site was crafted using the magic of Emacs? <a href="about-site.html">Click here</a> for the behind-the-scenes details.
+I’d love to hear from you! Whether you’re curious about my work, seeking collaboration, or just want to chat, feel free to reach out:
 </p>
+<ul class="org-ul">
+<li><a href="https://www.linkedin.com/in/khaled-mustafa/">LinkedIn</a></li>
+<li><a href="mailto:khaled.mustafa.elsayed@outlook.com">Email</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org3e5238b" class="outline-2">
+<h2 id="org3e5238b">How This Site Was Made</h2>
+<div class="outline-text-2" id="text-org3e5238b">
+<p>
+Crafted with care using the power of Emacs. <a href="about-site.html">Learn more</a> about the tools and processes behind the scenes.
+</p>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 29.4 (<a href="https://orgmode.org">Org</a> mode 9.6.15)</p>
