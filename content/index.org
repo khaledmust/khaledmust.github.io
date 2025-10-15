@@ -3,7 +3,7 @@
 #+OPTIONS: toc:nil
 #+tags: :moc:intro:
 
-Hi, welcome to my humble corner of the internet, where I write about my experiences and thoughts on various things including but not limited to embedded software.
+Hi, welcome to my humble corner of the Internet, where I write about my experiences and thoughts on different things including but not limited to embedded software.
 
 I hope you see you around :D
 
